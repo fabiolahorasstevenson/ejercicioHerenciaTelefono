@@ -57,3 +57,6 @@ var telefonoConRadio = /** @class */ (function (_super) {
     return telefonoConRadio;
 }(telefono));
 var telefono1 = new telefono(true, true);
+telefono1.prenderApagar();
+var telefonoConCamara1 = new telefonoConCamara(true, true);
+var telefonoConRadio1 = new telefonoConRadio(true, false, 40);
