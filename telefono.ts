@@ -54,3 +54,6 @@ class telefonoConRadio extends telefono{
 }
 
 let telefono1 = new telefono(true,true);
+telefono1.prenderApagar();
+let telefonoConCamara1 = new telefonoConCamara(true,true);
+let telefonoConRadio1 = new telefonoConRadio(true,false,40);
